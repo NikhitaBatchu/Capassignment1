@@ -12,4 +12,10 @@
         writer.flush();
         System.out.println("File content copied and written successfully.");
     }
-    
+  public static void main(String args[]){
+   try {
+            fileReadWrite();
+        } catch (IOException e) {
+            System.out.println("Invalid Files.");
+        }
+        }
