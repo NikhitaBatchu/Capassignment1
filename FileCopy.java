@@ -6,9 +6,10 @@
         StringBuffer buffer = new StringBuffer();
         while (sc.hasNext())
             buffer.append("\n"+sc.nextLine());
-        File file2 = new File("");
+        File file2 = new File("https://github.com/NikhitaBatchu/Capassignment1/blob/main/README.md");
         FileWriter writer = new FileWriter(file2);
         writer.write(buffer.toString());
         writer.flush();
         System.out.println("File content copied and written successfully.");
     }
+    
